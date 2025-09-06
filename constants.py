@@ -50,12 +50,20 @@ RAG_TOP_FOLDER_PATH = "./data"
 SUPPORTED_EXTENSIONS = {
     ".pdf": PyMuPDFLoader,
     ".docx": Docx2txtLoader,
-    ".csv": lambda path: CSVLoader(path, encoding="utf-8")
+    ".csv": lambda path: CSVLoader(path, encoding="utf-8"),
+    ".txt": lambda path: TextLoader(path, encoding="utf-8"),
 }
 WEB_URL_LOAD_TARGETS = [
     "https://generative-ai.web-camp.io/"
 ]
 
+
+# ==========================================
+# RAG設定系
+# ==========================================
+RETRIEVER_TOP_K = 5
+CHUNK_SIZE = 500
+CHUNK_OVERLAP = 50
 
 # ==========================================
 # プロンプトテンプレート
