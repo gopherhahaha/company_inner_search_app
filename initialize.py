@@ -138,6 +138,7 @@ def initialize_retriever():
     st.session_state.retriever = db.as_retriever(search_kwargs={"k": ct.RETRIEVER_TOP_K})
 
 
+
 def initialize_session_state():
     """
     初期化データの用意
