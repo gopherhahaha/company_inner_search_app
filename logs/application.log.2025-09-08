@@ -1,0 +1,16 @@
+[INFO] 2025-09-07 05:42:16,612 line 53, in <module>, session_id=cbd9476324ed4223baa5336eed3d6a5e: アプリが起動されました。
+[INFO] 2025-09-07 07:30:13,240 line 53, in <module>, session_id=5e884d641c8b417fa4a331a59e3deb6d: アプリが起動されました。
+[INFO] 2025-09-08 04:59:26,808 line 53, in <module>, session_id=36bdf9e50d234ad9b2b94fb970006d14: アプリが起動されました。
+[INFO] 2025-09-08 05:02:51,376 line 53, in <module>, session_id=f07a7b4ffdb547a18ea599b1ad4e1227: アプリが起動されました。
+[INFO] 2025-09-08 05:04:58,224 line 53, in <module>, session_id=d4f308684c0f478f8af55a747aa9a3b5: アプリが起動されました。
+[INFO] 2025-09-08 05:06:13,083 line 53, in <module>, session_id=27869d8e4e934cad844c2e5e76ca4f6c: アプリが起動されました。
+[INFO] 2025-09-08 05:14:45,448 line 53, in <module>, session_id=110625b8950b4c88affdabcc9e478e8b: アプリが起動されました。
+[INFO] 2025-09-08 05:16:00,197 line 53, in <module>, session_id=13e235645af54903a8af1cb7ef737c43: アプリが起動されました。
+[INFO] 2025-09-08 05:28:21,345 line 53, in <module>, session_id=f932b3f8aaa945ab9547e9ef019da2f7: アプリが起動されました。
+[INFO] 2025-09-08 05:34:14,912 line 53, in <module>, session_id=8ef05a81824f4f79a1951a518ded4b78: アプリが起動されました。
+[INFO] 2025-09-08 05:41:32,938 line 53, in <module>, session_id=cfb95e2ff72b439aa56b431dc77066b4: アプリが起動されました。
+[INFO] 2025-09-08 05:43:38,975 line 53, in <module>, session_id=5ba750eb5c8b4e56a3cd05ec824d92a0: アプリが起動されました。
+[INFO] 2025-09-08 05:52:35,789 line 53, in <module>, session_id=a632aac519e44b329899ef7b027a80ae: アプリが起動されました。
+[INFO] 2025-09-08 05:54:11,177 line 53, in <module>, session_id=cb5ae4dde8dc4e188d2d6336ee2e36e0: アプリが起動されました。
+[INFO] 2025-09-08 05:55:20,379 line 98, in <module>, session_id=cb5ae4dde8dc4e188d2d6336ee2e36e0: {'message': '株式会社ecoteeの株主優待の内容を教えて', 'application_mode': '社内文書検索'}
+[INFO] 2025-09-08 05:55:24,156 line 142, in <module>, session_id=cb5ae4dde8dc4e188d2d6336ee2e36e0: {'message': {'mode': '社内文書検索', 'main_message': '入力内容に関する情報は、以下のファイルに含まれている可能性があります。', 'main_file_path': './data\\会社について\\株主優待について.pdf', 'main_page_number': 1, 'sub_message': 'その他、ファイルありかの候補を提示します。', 'sub_choices': [{'source': './data\\会社について\\会社概要.pdf', 'page_number': 3}]}, 'application_mode': '社内文書検索'}

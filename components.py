@@ -61,7 +61,8 @@ def display_initial_ai_message():
     with st.chat_message("assistant"):
         # st.markdown("こんにちは。私は社内文書の情報をもとに回答する生成AIチャットボットです。サイドバーで利用目的を選択し、画面下部のチャット欄からメッセージを送信してください。")
         st.success("**こんにちは。私は社内文書の情報をもとに回答する生成AIチャットボットです。サイドバーで利用目的を選択し、画面下部のチャット欄からメッセージを送信してください。**")
-        st.warning("**具体的に入力したほうが期待通りの回答を得やすいです。**")
+        #st.warning("**具体的に入力したほうが期待通りの回答を得やすいです。**")
+        st.warning("具体的に入力したほうが期待通りの回答を得やすいです。", icon=ct.WARNING_ICON)
         st.sidebar.markdown("##### 【「社内文書検索」を選択した場合】")
         st.sidebar.info("入力内容と関連性が高い社内文書のありかを検索できます。")
         st.sidebar.code("【入力例】\n社員の育成方針に関するMTGの議事録", language=None)
